@@ -1,0 +1,43 @@
+.main {
+    background-color: grey;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    display: inline-flex;
+    height: 64px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo, 
+.menu {
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    left: 24px;
+    height: 32px;
+}
+
+.logo p {
+    font-family: Verdana, sans-serif;
+}
+
+.menu {
+    position: relative;
+    right: 5px;
+}
+
+.menu p {
+    margin: 0 8px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}

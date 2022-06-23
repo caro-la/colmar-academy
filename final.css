@@ -51,7 +51,7 @@
     top: 64px;
     display: inline-flex;
     width: 100%;
-    padding: 32px 24px;
+    padding: 32px 0;
     align-items: center;
     background-color: lightgray;
 }
@@ -59,7 +59,7 @@
 .section-one img {
     width: 60%;
     height: auto;
-    padding-right: 24px;
+    padding: 0 24px;
 }
 
 .section-one .learn{
@@ -89,55 +89,66 @@
     display: inline-flex;
     position: relative;
     background-color: white;
+    opacity: 0.8;
     position: relative;
-    top: 32px;
+    top: 64px;
     width: 100%;
-    margin: 0 auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-two .left {
     display: block;
     width: 60%;
     justify-content: left;
-    padding: 32px 24px;
+    padding: 0 24px;
     color: rgb(56, 54, 54);
     font-family: Verdana, sans-serif;
 }
 
 .section-one .left p {
     font-weight: lighter;
+    font-size: 15px;
 }
 .section-two .left h1 {
-    padding-top: 32px;
     padding-bottom: 24px;
 }
 
 .section-two .left img {
     width: 100%;
     height: auto;
+    padding: 0 24px 32px 0;
 }
 
 .section-two .right {
     width: 40%;
+    height: 100%;
     display: block;
-    flex-flow: wrap;
+    justify-content: space-around;
     color: rgb(56, 54, 54);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
 }
 
 .top, 
 .center, 
 .bottom {
     display: inline-flex;
+    flex-shrink: 0;
 }
 
 .section-two .right img {
     width: 35%;
-    height: auto;
+    padding: 16px;
 }
 
 .section-two .right .comment {
     width: 65%;
+}
+
+.section-two .right .art {
+    background-color: white;
 }
 
 .section-two .right .comment p{
@@ -147,8 +158,60 @@
 
 .section-two .right .comment h5 {
     font-weight: lighter;
+    padding: 8px 0;
 }
 
+/*section three*/
+
 .section-three {
+    display: block;
+    position: relative;
+    top: 64px;
+    width: 100%;
+    background-color: lightgray;
+    color: rgb(56, 54, 54);
+}
+
+.section-three h1 {
+    text-align: center;
+    padding-top: 32px;
+    font-family: Verdana, sans-serif;
+}
+
+.section-three .courses {
     display: inline-flex;
+    flex-wrap: wrap;
+    padding: 32px 72px;
+}
+
+.section-three .course {
+    background-color: white;
+    display: block;
+    justify-content: left;
+    margin: 0 16px 16px 0;
+    width: 30%;
+}
+
+.section-three .course img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.section-three .course h5 {
+    padding: 8px 0;
+    font-weight: 300;
+}
+
+.section-three .course p {
+    font-weight: lighter;
+    font-weight: 100;
+}
+
+.section-three .course .txt {
+    position: relative;
+    left: 16px;
+    width: 85%;
+    font-family: Verdana, sans-serif;
+    color:rgb(56, 54, 54);
 }

@@ -1,5 +1,6 @@
 .main {
-    background-color: grey;
+    display: block;
+    flex-direction: column;
 }
 
 .header {
@@ -13,6 +14,7 @@
     position: fixed;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .logo, 
@@ -40,4 +42,111 @@
     margin: 0 8px;
     font-family: Verdana, sans-serif;
     font-size: 12px;
+}
+
+/*section one*/
+
+.section-one {
+    position:relative;
+    top: 64px;
+    display: inline-flex;
+    width: 100%;
+    padding: 32px 24px;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.section-one img {
+    width: 60%;
+    height: auto;
+    padding-right: 24px;
+}
+
+.section-one .learn{
+    display: block;
+    justify-content: left;
+    width: 30%;
+    color: rgb(56, 54, 54);
+    padding-left: 24px;
+    font-family: Verdana, sans-serif;
+}
+
+.section-one .learn h1, 
+.section-one .learn h3 {
+    text-align: left;
+}
+
+.section-one .learn .button {
+    background-color: rgb(56, 54, 54);
+    color: lightgray;
+    text-align: center;
+    line-height: 30px;
+}
+
+/*section two*/
+
+.section-two {
+    display: inline-flex;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    top: 32px;
+}
+
+.section-two .left {
+    display: block;
+    justify-content: left;
+    padding: 32px 24px;
+    color: rgb(56, 54, 54);
+    font-family: Verdana, sans-serif;
+}
+
+.section-one .left p {
+    font-weight: lighter;
+}
+.section-two .left h1 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.section-two .left img {
+    width: 60%;
+    height: auto;
+}
+
+.section-two .right {
+    width: 40%;
+    display: block;
+    flex-flow: wrap;
+    color: rgb(56, 54, 54);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top, 
+.center, 
+.bottom {
+    display: inline-flex;
+}
+
+.section-two .right img {
+    width: 35%;
+    height: auto;
+}
+
+.section-two .right .comment {
+    width: 65%;
+}
+
+.section-two .right .comment p{
+    color: rgb(67, 202, 202);
+    font-weight: lighter;
+}
+
+.section-two .right .comment h5 {
+    font-weight: lighter;
+}
+
+.section-three {
+    display: inline-flex;
 }

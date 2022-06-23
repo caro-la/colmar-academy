@@ -88,7 +88,7 @@
 .section-two {
     display: inline-flex;
     position: relative;
-    background-color: white;
+    background-color: rgb(232, 232, 232);
     opacity: 0.8;
     position: relative;
     top: 64px;
@@ -128,7 +128,6 @@
     justify-content: space-around;
     color: rgb(56, 54, 54);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightgray;
 }
 
 .top, 
@@ -145,10 +144,7 @@
 
 .section-two .right .comment {
     width: 65%;
-}
-
-.section-two .right .art {
-    background-color: white;
+    padding-right: 10px;
 }
 
 .section-two .right .comment p{
@@ -166,7 +162,7 @@
 .section-three {
     display: block;
     position: relative;
-    top: 64px;
+    top: 32px;
     width: 100%;
     background-color: lightgray;
     color: rgb(56, 54, 54);
@@ -214,4 +210,86 @@
     width: 85%;
     font-family: Verdana, sans-serif;
     color:rgb(56, 54, 54);
+}
+
+/*section four*/
+
+.section-four {
+    position: relative;
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+    display: block;
+    justify-content: center;
+    color: rgb(56, 54, 54);
+    font-family: Verdana, sans-serif;
+    border-bottom: 1px solid rgba(56, 54, 54, 0.4);
+}
+
+.section-four h1 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.section-four .docs {
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.section-four .vid {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.section-four .vid video {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.section-four .r {
+    display: block;
+    width: 40%;
+    padding-top: 16px;
+}
+
+.section-four .r .crt {
+    display: inline-flex;
+    align-items: center;
+}
+
+.section-four img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.section-four h5 {
+    font-weight: lighter;
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(232, 232, 232);
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: Verdana, sans-serif;
+    color:rgb(56, 54, 54);
+}
+
+footer span {
+    display: inline-flex;
+    line-height: 40px;
+}
+
+footer span p {
+    padding-right: 24px;
+}
+
+footer cite {
+    padding-left: 24px;
+    font-style: normal;
 }
